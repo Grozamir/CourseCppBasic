@@ -2,22 +2,11 @@ cmake_minimum_required(VERSION 3.5)
 
 project(03.homework)
 
-add_executable(
-	check_value
-	src/check_value.cpp
-)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(
-	random_value
-	src/random_value.cpp
-)
-
-add_executable(
-	high_scores
-	src/high_scores.cpp
-)
-
-add_executable(
-	argument
-	src/argument.cpp
+add_executable(GuessTheNumber
+	src/main.cpp
+	src/game.cpp
+	src/scores_helper.cpp
 )
