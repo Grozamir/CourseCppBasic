@@ -3,21 +3,21 @@ cmake_minimum_required(VERSION 3.5)
 project(03.homework)
 
 add_executable(
-	src/check_value
+	check_value
 	src/check_value.cpp
 )
 
 add_executable(
-	src/random_value
+	random_value
 	src/random_value.cpp
 )
 
 add_executable(
-	src/high_scores
+	high_scores
 	src/high_scores.cpp
 )
 
 add_executable(
-	src/argument
+	argument
 	src/argument.cpp
 )
